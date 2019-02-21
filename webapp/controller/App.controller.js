@@ -12,6 +12,7 @@ sap.ui.define([
 			this.oRouter.attachRouteMatched(this.onRouteMatched, this);
 			this.oRouter.attachBeforeRouteMatched(this.onBeforeRouteMatched, this);
 		},
+		
 
 		onBeforeRouteMatched: function(oEvent) {
 			var oModel = this.oOwnerComponent.getModel(),
